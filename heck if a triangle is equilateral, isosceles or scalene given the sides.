@@ -1,0 +1,11 @@
+a = int(input('value of the side of the triangle'))
+b = int(input('value of the side of the triangle'))
+c = int(input('value of the side of the triangle'))
+if a==b and a==c and b==c:
+    print('Equilateral Triangle')
+
+else:
+    if a==b or b==c or c==a:
+        print('Isosceles Triangle')
+    else:
+        print('Scalene Triangle')
